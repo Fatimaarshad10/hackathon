@@ -1,0 +1,69 @@
+/* src/pages/DoctorDashboard.css */
+
+.dashboard-container {
+    max-width: 900px;
+    margin: 50px auto; /* Center the dashboard */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa; /* Light background for the dashboard */
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Blue color for title */
+  }
+  
+  .dashboard-description {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #555; /* Darker text color */
+  }
+  
+  .dashboard-cards {
+    display: flex;
+    justify-content: space-between; /* Space cards evenly */
+    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+  }
+  
+  .dashboard-card {
+    flex: 1; /* Allow cards to grow */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for cards */
+    text-align: center;
+    min-width: 250px; /* Minimum width for cards */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .dashboard-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .dashboard-card h3 {
+    color: #007bff; /* Blue color for card titles */
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-top: 10px; /* Space above button */
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

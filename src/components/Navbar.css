@@ -1,0 +1,25 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar-button {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  .navbar-button1{color: black;}
+  .navbar-button:hover {
+    background-color: #007bff; /* Darker blue on hover */
+  }
+  
